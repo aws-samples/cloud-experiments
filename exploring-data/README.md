@@ -8,8 +8,8 @@ We hear from public institutions all the time that they are looking to extract m
 
 A new approach is needed to extract insights and value from data. This approach needs to address complexities of multi-step data analytics workflow. This includes setting up durable, secure, and scalable storage for data, moving data from source to destination with speed and low cost, ease of data preparation for analytics, and making data available for different types of analytics including ad-hoc, real-time, and predictive.
 
-### About CloudStory Notebooks
-This notebook is first in a series of CloudStory notebooks following step-by-step workflow for open data analytics on cloud. We will present these notebooks with guidance on using AWS Cloud programmatically, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing a reusable API for open data analytics workflow on cloud. The first step in this workflow is sourcing the appropriate open dataset(s) for setting up our analytics pipeline. You may want to run these notebooks using [Amazon SageMaker](https://aws.amazon.com/sagemaker/). Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
+### About AWS Open Data Analytics Notebooks
+This notebook is first in a series of AWS Open Data Analytics Notebooks following step-by-step workflow for open data analytics on cloud. We will present these notebooks with guidance on using AWS Cloud programmatically, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing a reusable API for open data analytics workflow on cloud. The first step in this workflow is sourcing the appropriate open dataset(s) for setting up our analytics pipeline. You may want to run these notebooks using [Amazon SageMaker](https://aws.amazon.com/sagemaker/). Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
 
 ### Why Open Datasets
 When building analytical models it is best to start with tried and tested open datasets from the problem domain we are solving. This enables us to setup our data analytics workflow, determine the appropriate models and analytical methods, benchmark the results, collaborate with open data community, before we apply these to our own data. Such open datasets are available at the [Registry of Open Data on AWS](https://registry.opendata.aws/).
@@ -17,7 +17,7 @@ When building analytical models it is best to start with tried and tested open d
 For this notebook let us start with a big open dataset. Big enough that we will struggle to open it in Excel on a laptop. Excel has around million rows limit. We will setup AWS services to source from a 270GB data source, filter and store more than 8 million rows or 100 million data points into a flat file, extract schema from this file, transform this data, load into analytics tools, run Structured Query Language (SQL) on this data, perform exploratory data analytics, train and build machine learning models, and visualize all 100 million data points using an interactive dashboard.
 
 ### Open Data Analytics Architecture
-When we complete these CloudStory workflow notebooks we will build the following open data analytics architecture. This is a serverless architecture. It requires no software licenses to be procured. You do not need to manage any virtual servers or operating systems. Billing of each of the services is pay-per-use. You can plug-and-play 160 AWS services within this stack based on your specific requirements.
+When we complete these workflow notebooks we will build the following open data analytics architecture. This is a serverless architecture. It requires no software licenses to be procured. You do not need to manage any virtual servers or operating systems. Billing of each of the services is pay-per-use. You can plug-and-play 160 AWS services within this stack based on your specific requirements.
 
 ![Open Data Analytics Architecture](https://s3.amazonaws.com/cloudstory/notebooks-media/open-data-analytics-architecture.png)
 
@@ -43,7 +43,7 @@ s3_resource = boto3.resource('s3')
 ```
 
 ### Create Bucket
-Now we come to an important part of CloudStory workflow of creating a Python function. These functions are created all along this notebook and others in the series. Think of these functions as reusable APIs for applying all that you learn from CloudStory notebooks into your own projects by simply importing these functions as a library.
+Now we come to an important part of the workflow of creating a Python function. These functions are created all along this notebook and others in the series. Think of these functions as reusable APIs for applying all that you learn from AWS Open Data Analytics Notebooks into your own projects by simply importing these functions as a library.
 
 Before we source the open dataset from the Registry, we need to define a destination for our data. We will store our open datasets within Amazon S3. S3 storage in turn is organized in universally unique ``buckets``. These bucket names form special URLs of the format ``s3://bucket-name`` which access the contents of the buckets depending on security and access policies applied to the bucket and its contents. Buckets can further contain folders and files. ``Keys`` are combination of folder and file name path or just the file name in case it is within the bucket root.
 
@@ -796,7 +796,7 @@ df.head()
 
 
 
-Let us enter the big data leagues now. Let's list all the files in the Registry dataset which match the year 2018 with no constraints on file size this time. We are now reusing the function written earlier suggesting how the CloudStory API will get used when we complete the notebook series. This time the results have files going beyond 1.5GB in size. We pick a file which is +700MB in size for our analysis.
+Let us enter the big data leagues now. Let's list all the files in the Registry dataset which match the year 2018 with no constraints on file size this time. We are now reusing the function written earlier suggesting how the API will get used when we complete the notebook series. This time the results have files going beyond 1.5GB in size. We pick a file which is +700MB in size for our analysis.
 
 
 ```python
@@ -1118,7 +1118,7 @@ This release adds alternative workflow for directly querying source datasets on 
 Known issue: Running s3_select with query limit 1000 or more results in ValueError - Expected object or value. Is this exception because of the maximum length of a record in the result as 1 MB limit? [TODO] Handle exception gracefully.
 
 #### Launch - Release 30 APR 2019
-This is the launch release which builds the CloudStory API for exploring open datasets within your Amazon S3 account using S3 Select.
+This is the launch release which builds the AWS Open Data Analytics API for exploring open datasets within your Amazon S3 account using S3 Select.
 
 
 ---
