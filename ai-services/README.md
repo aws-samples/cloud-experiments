@@ -1500,7 +1500,7 @@ Functions ``image_text`` and ``detect_celeb`` can now sort results based on a co
 Usability update for ``comprehend_syntax`` function to split ``part of speech`` dictionary value into separate Tag and Score columns.
 
 #### Launch - Release 30 APR 2019
-This is the launch release which builds the CloudStory API for using AWS AI services to analyze public data.
+This is the launch release which builds the AWS Open Data Analytics API for using AWS AI services to analyze public data.
 
 
 ---
