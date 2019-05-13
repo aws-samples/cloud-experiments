@@ -56,17 +56,7 @@ key='notebooks-media/alexa-for-business-people.mp4'
 show_video(bucket, key)
 ```
 
-
-
-
-
-    <div align="middle">
-        <video width="100%" controls>
-          <source src="https://s3.amazonaws.com/cloudstory/notebooks-media/alexa-for-business-people.mp4" type="video/mp4">
-        </video>
-    </div>
-    
-
+![Video Snapshot](https://s3.amazonaws.com/cloudstory/notebooks-media/video-analytics-snap.png)
 
 
 
