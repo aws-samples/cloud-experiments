@@ -303,7 +303,7 @@ video_labels_wordcloud(text)
 ```
 
 
-![png](output_20_0.png)
+![Word Cloud](https://s3.amazonaws.com/cloudstory/notebooks-media/word-cloud-video-analytics.png)
 
 
 Now we are ready to search the labels to programmatically analyze the semantics or content of the video. The ``video_labels_search`` API matches a column within the results DataFrame with a matching string contained within the values of that column.
