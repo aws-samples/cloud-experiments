@@ -58,6 +58,7 @@ show_video(bucket, key)
 
 ![Video Snapshot](https://s3.amazonaws.com/cloudstory/notebooks-media/video-analytics-snap.png)
 
+We can now define an API function for starting label recognition job on the S3 stored video. Label detection runs a machine learning model developed by AWS to process the video imagery detencting objects in the video and identifying these by label names coordinated with video frame timestamp. We do not need to perform any model training or deployment. The function takes S3 location as input and returns a Job ID of the label detection job in progress.
 
 
 ```python
@@ -79,6 +80,8 @@ jobId
     '3b973b777ed0818ca05fdb8c7e8c2d0afb1c295ad5b3494e143eafd5dd324c4a'
 
 
+
+Depending on the length and resolution of the video the Rekognition label detection job may take several seconds to a few minutes. We will define a function to wait for this job to complete. Once the job is complete, we will publish video duration in milliseconds and framerate identified by the label detection job. We will then go on to read the response from label detection job, paginating results if these are greater than 1000 labels detected. We will then process the response and convert the resulting JSON representation into a ``pandas`` DataFrame, making the data available for analytics.
 
 
 ```python
@@ -112,6 +115,8 @@ def video_labels_result(jobId):
     df = df.drop(columns=['Label'])
     return df    
 ```
+
+The sample video we analyzed for this notebook returns 1,256 labels. Each detected label is matched with a timestamp within the video. We also get confidence score from the Rekognition model. Higher confidence generally means more accurate model results. We get insights on number of instances of a particular label or object within a frame at a particular timestamp. So if there are three people in a frame, instance count for ``Person`` label maybe three. We also get ``Parents`` or synonyms for the labels detected.
 
 
 ```python
@@ -252,9 +257,11 @@ df.head(10)
 
 
 
+Before we run further analytics on the detected labels, we need a way to query all the labels found. The ``video_labels_text`` function returns a string of all such labels.
+
 
 ```python
-def video_lables_text(df):
+def video_labels_text(df):
     si = io.StringIO()
     df['LabelName'].apply(lambda x: si.write(str(x + ' ')))
     s = si.getvalue()
@@ -264,7 +271,7 @@ def video_lables_text(df):
 
 
 ```python
-text = video_lables_text(df)
+text = video_labels_text(df)
 text[500:1000]
 ```
 
@@ -274,6 +281,8 @@ text[500:1000]
     'nce Room Crowd Electronics Furniture Hardware Human Indoors Interview Meeting Room Mouse Office Office Building Overcoat People Person Room Sitting Speech Suit Table Apparel Audience Building Clothing Coat Computer Conference Room Crowd Electronics Furniture Hardware Human Indoors Interview Meeting Room Mouse Office Office Building Overcoat People Person Room Sitting Speech Suit Table Apparel Audience Building Clothing Coat Computer Conference Room Crowd Electronics Furniture Hardware Human Indo'
 
 
+
+You will notice that many labels repeat. If we want to understand the distribution of these labels, we can simply visualize a Word Cloud based on frequency of these labels.
 
 
 ```python
@@ -294,7 +303,10 @@ video_labels_wordcloud(text)
 ```
 
 
-![Video Labels Word Cloud](https://s3.amazonaws.com/cloudstory/notebooks-media/word-cloud-video-analytics.png)
+![png](output_20_0.png)
+
+
+Now we are ready to search the labels to programmatically analyze the semantics or content of the video. The ``video_labels_search`` API matches a column within the results DataFrame with a matching string contained within the values of that column.
 
 
 ```python
@@ -302,6 +314,8 @@ def video_labels_search(df, column, match):
     df_result = df[df[column].str.contains(match)]
     return df_result
 ```
+
+If we match ``Person`` within ``LabelName`` column we can analyze how many people feature in the video at various points in the video. You can use this API in use cases like attendance monitoring for conference rooms, training sessions, or even polling booths.
 
 
 ```python
@@ -825,6 +839,8 @@ video_labels_search(df, 'LabelName', 'Person')
 </div>
 
 
+
+We can also match ``Parents`` or synonyms of the labels detected to understand the semantics or content of the video using code. The sample video as this search suggests contains several objects under the general category of ``Computer`` which implies an office setting where the video is shot.
 
 
 ```python
