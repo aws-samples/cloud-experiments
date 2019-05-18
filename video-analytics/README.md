@@ -11,6 +11,7 @@ Python libraries we will use include AWS SDK for Python (Boto3) to call AWS serv
 ```python
 import boto3
 import pandas as pd
+import numpy as np
 from IPython.display import display, Markdown, HTML
 import time
 import io
@@ -26,6 +27,7 @@ Amazon Rekognition provides capabilities to recognize content within still image
 rek = boto3.client('rekognition')
 ```
 
+### Show Video
 We define our first API function for video analytics for showing video in-place within this notebook from Amazon S3 source. We can pass parameters to turn on/off autoplay and player controls. We can also specify the %size of the video to display.
 
 
@@ -58,6 +60,7 @@ show_video(bucket, key)
 
 ![Video Snapshot](https://s3.amazonaws.com/cloudstory/notebooks-media/video-analytics-snap.png)
 
+### Video Labels Job
 We can now define an API function for starting label recognition job on the S3 stored video. Label detection runs a machine learning model developed by AWS to process the video imagery detencting objects in the video and identifying these by label names coordinated with video frame timestamp. We do not need to perform any model training or deployment. The function takes S3 location as input and returns a Job ID of the label detection job in progress.
 
 
@@ -81,6 +84,7 @@ jobId
 
 
 
+### Video Labels Result
 Depending on the length and resolution of the video the Rekognition label detection job may take several seconds to a few minutes. We will define a function to wait for this job to complete. Once the job is complete, we will publish video duration in milliseconds and framerate identified by the label detection job. We will then go on to read the response from label detection job, paginating results if these are greater than 1000 labels detected. We will then process the response and convert the resulting JSON representation into a ``pandas`` DataFrame, making the data available for analytics.
 
 
@@ -257,6 +261,7 @@ df.head(10)
 
 
 
+### Video Labels Text
 Before we run further analytics on the detected labels, we need a way to query all the labels found. The ``video_labels_text`` function returns a string of all such labels.
 
 
@@ -282,6 +287,7 @@ text[500:1000]
 
 
 
+### Video Labels Wordcloud
 You will notice that many labels repeat. If we want to understand the distribution of these labels, we can simply visualize a Word Cloud based on frequency of these labels.
 
 
@@ -306,6 +312,7 @@ video_labels_wordcloud(text)
 ![Word Cloud](https://s3.amazonaws.com/cloudstory/notebooks-media/word-cloud-video-analytics.png)
 
 
+### Video Labels Search
 Now we are ready to search the labels to programmatically analyze the semantics or content of the video. The ``video_labels_search`` API matches a column within the results DataFrame with a matching string contained within the values of that column.
 
 
@@ -1322,6 +1329,104 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>0</td>
       <td>2</td>
       <td>Computer, Electronics</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Video Label Stats
+For use cases where you want to count the number of objects in the video we can build the ``video_label_stats`` function which searches for a specific label and returns statistics for that label.
+
+
+```python
+def video_label_stats(df, label):
+    df_stats = video_labels_search(df, column='LabelName', match=label)
+    print(f'Displaying stats on number of instances for label "{label}"')
+    return df_stats.describe()
+```
+
+The stats for this video and ``Person`` label suggest that at max 12 people appeared at the same time during the video, at least two people were present throughout the video, with three to four people during most of the video. If this video is monitoring utilization of an office conference room, the analytics results can help determine optimal room seating, calendar scheduling, air conditioning, and other facilities related decisions, when analyzed over a period of usage. The score stats suggest that the label was detected with 99% confidence in most cases.
+
+
+```python
+video_label_stats(df, 'Person')
+```
+
+    Displaying stats on number of instances for label "Person"
+
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Timestamp</th>
+      <th>Score</th>
+      <th>Instances</th>
+      <th>ParentsCount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>55.000000</td>
+      <td>55.000000</td>
+      <td>55.000000</td>
+      <td>55.0</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>5633.072727</td>
+      <td>97.434545</td>
+      <td>4.145455</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>3366.954899</td>
+      <td>8.072887</td>
+      <td>2.197795</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>60.300000</td>
+      <td>2.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>2689.500000</td>
+      <td>99.250000</td>
+      <td>3.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>5797.000000</td>
+      <td>99.690000</td>
+      <td>4.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>8487.000000</td>
+      <td>99.770000</td>
+      <td>4.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>11177.000000</td>
+      <td>99.870000</td>
+      <td>12.000000</td>
+      <td>0.0</td>
     </tr>
   </tbody>
 </table>
