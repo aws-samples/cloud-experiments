@@ -1498,24 +1498,6 @@ def video_persons_result(jobId):
 
 
 ```python
-show_video(bucket, key, 50)
-```
-
-
-
-
-
-    <div align="middle">
-        <video width="50%" controls>
-          <source src="https://s3.amazonaws.com/cloudstory/notebooks-media/alexa-for-business-people.mp4" type="video/mp4">
-        </video>
-    </div>
-    
-
-
-
-
-```python
 df_persons = video_persons_result(personsJobId)
 df_persons.head(10)
 ```
