@@ -80,7 +80,7 @@ jobId
 
 
 
-    '3b973b777ed0818ca05fdb8c7e8c2d0afb1c295ad5b3494e143eafd5dd324c4a'
+    'e16110ea93a00db65a0a6a7b92e7eabcdc1d902841ee5fc77656283e457594e6'
 
 
 
@@ -226,7 +226,7 @@ df.head(10)
       <td>86.87</td>
       <td>0</td>
       <td>2</td>
-      <td>Indoors, Room</td>
+      <td>Room, Indoors</td>
     </tr>
     <tr>
       <th>7</th>
@@ -307,7 +307,6 @@ def video_labels_wordcloud(text):
 ```python
 video_labels_wordcloud(text)
 ```
-
 
 ![Word Cloud](https://s3.amazonaws.com/cloudstory/notebooks-media/word-cloud-video-analytics.png)
 
@@ -878,7 +877,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>82.03</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Hardware, Computer</td>
+      <td>Computer, Electronics, Hardware</td>
     </tr>
     <tr>
       <th>41</th>
@@ -887,7 +886,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>83.93</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Hardware</td>
+      <td>Electronics, Hardware, Computer</td>
     </tr>
     <tr>
       <th>67</th>
@@ -896,7 +895,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>85.22</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Hardware</td>
+      <td>Computer, Hardware, Electronics</td>
     </tr>
     <tr>
       <th>93</th>
@@ -905,7 +904,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>87.57</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Hardware</td>
+      <td>Hardware, Electronics, Computer</td>
     </tr>
     <tr>
       <th>119</th>
@@ -914,7 +913,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>89.41</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Hardware, Electronics</td>
+      <td>Electronics, Hardware, Computer</td>
     </tr>
     <tr>
       <th>123</th>
@@ -923,7 +922,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>50.10</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>146</th>
@@ -932,7 +931,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>89.70</td>
       <td>1</td>
       <td>3</td>
-      <td>Hardware, Electronics, Computer</td>
+      <td>Computer, Hardware, Electronics</td>
     </tr>
     <tr>
       <th>172</th>
@@ -941,7 +940,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>90.15</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Hardware, Electronics</td>
+      <td>Computer, Electronics, Hardware</td>
     </tr>
     <tr>
       <th>195</th>
@@ -950,7 +949,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>73.25</td>
       <td>1</td>
       <td>3</td>
-      <td>Hardware, Computer, Electronics</td>
+      <td>Electronics, Computer, Hardware</td>
     </tr>
     <tr>
       <th>214</th>
@@ -959,7 +958,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>55.04</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Hardware, Computer</td>
+      <td>Computer, Electronics, Hardware</td>
     </tr>
     <tr>
       <th>560</th>
@@ -977,7 +976,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>67.05</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Hardware, Computer</td>
+      <td>Hardware, Computer, Electronics</td>
     </tr>
     <tr>
       <th>584</th>
@@ -995,7 +994,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>83.16</td>
       <td>1</td>
       <td>3</td>
-      <td>Hardware, Electronics, Computer</td>
+      <td>Electronics, Hardware, Computer</td>
     </tr>
     <tr>
       <th>609</th>
@@ -1013,7 +1012,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>84.25</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Hardware, Electronics</td>
+      <td>Electronics, Hardware, Computer</td>
     </tr>
     <tr>
       <th>635</th>
@@ -1022,7 +1021,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>53.09</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>657</th>
@@ -1031,7 +1030,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>84.47</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Hardware</td>
+      <td>Computer, Electronics, Hardware</td>
     </tr>
     <tr>
       <th>660</th>
@@ -1040,7 +1039,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>53.37</td>
       <td>0</td>
       <td>2</td>
-      <td>Electronics, Computer</td>
+      <td>Computer, Electronics</td>
     </tr>
     <tr>
       <th>680</th>
@@ -1049,7 +1048,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>83.63</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Hardware</td>
+      <td>Electronics, Hardware, Computer</td>
     </tr>
     <tr>
       <th>683</th>
@@ -1067,7 +1066,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>82.93</td>
       <td>1</td>
       <td>3</td>
-      <td>Hardware, Computer, Electronics</td>
+      <td>Hardware, Electronics, Computer</td>
     </tr>
     <tr>
       <th>702</th>
@@ -1076,7 +1075,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>53.48</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>720</th>
@@ -1103,7 +1102,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>57.33</td>
       <td>0</td>
       <td>3</td>
-      <td>Electronics, Pc, Computer</td>
+      <td>Computer, Pc, Electronics</td>
     </tr>
     <tr>
       <th>747</th>
@@ -1112,7 +1111,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>70.09</td>
       <td>0</td>
       <td>2</td>
-      <td>Electronics, Computer</td>
+      <td>Computer, Electronics</td>
     </tr>
     <tr>
       <th>768</th>
@@ -1139,7 +1138,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>73.28</td>
       <td>1</td>
       <td>3</td>
-      <td>Pc, Electronics, Computer</td>
+      <td>Electronics, Computer, Pc</td>
     </tr>
     <tr>
       <th>797</th>
@@ -1157,7 +1156,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>81.46</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Electronics, Pc</td>
+      <td>Pc, Computer, Electronics</td>
     </tr>
     <tr>
       <th>823</th>
@@ -1193,7 +1192,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>82.76</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Computer, Pc</td>
+      <td>Pc, Electronics, Computer</td>
     </tr>
     <tr>
       <th>877</th>
@@ -1211,7 +1210,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>83.73</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Pc, Electronics</td>
+      <td>Electronics, Pc, Computer</td>
     </tr>
     <tr>
       <th>904</th>
@@ -1220,7 +1219,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>97.65</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>927</th>
@@ -1229,7 +1228,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>85.55</td>
       <td>1</td>
       <td>3</td>
-      <td>Electronics, Pc, Computer</td>
+      <td>Computer, Electronics, Pc</td>
     </tr>
     <tr>
       <th>931</th>
@@ -1238,7 +1237,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>97.95</td>
       <td>0</td>
       <td>2</td>
-      <td>Electronics, Computer</td>
+      <td>Computer, Electronics</td>
     </tr>
     <tr>
       <th>954</th>
@@ -1247,7 +1246,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>85.10</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Pc, Electronics</td>
+      <td>Pc, Computer, Electronics</td>
     </tr>
     <tr>
       <th>958</th>
@@ -1265,7 +1264,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>84.59</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Pc, Electronics</td>
+      <td>Pc, Electronics, Computer</td>
     </tr>
     <tr>
       <th>984</th>
@@ -1274,7 +1273,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>97.41</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>1006</th>
@@ -1301,7 +1300,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>67.26</td>
       <td>1</td>
       <td>3</td>
-      <td>Computer, Electronics, Pc</td>
+      <td>Pc, Electronics, Computer</td>
     </tr>
     <tr>
       <th>1036</th>
@@ -1310,7 +1309,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>85.71</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>1059</th>
@@ -1319,7 +1318,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>72.86</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
     <tr>
       <th>1088</th>
@@ -1328,7 +1327,7 @@ video_labels_search(df, 'Parents', 'Computer')
       <td>60.99</td>
       <td>0</td>
       <td>2</td>
-      <td>Computer, Electronics</td>
+      <td>Electronics, Computer</td>
     </tr>
   </tbody>
 </table>
@@ -1431,5 +1430,1182 @@ video_label_stats(df, 'Person')
   </tbody>
 </table>
 </div>
+
+
+
+### Video Persons Job
+We will now solve for the People Pathing problem. Amazon Rekognition can track the path people take within a video and identify the location of a person within a video frame. Use cases can include analyzing sports person performance or learning a dance step. Let's start by creating a function to submit person tracking job to Rekognition.
+
+
+```python
+def video_persons_job(bucket, key):
+    video = {'S3Object': {'Bucket': bucket, 'Name': key}}
+    response_detect = rek.start_person_tracking(Video = video)
+    return response_detect['JobId']
+```
+
+
+```python
+personsJobId = video_persons_job(bucket, key)
+personsJobId
+```
+
+
+
+
+    'a537769e31e94d714720b956fda3a0176d6130817208134a8f2269f48ac0ba21'
+
+
+
+### Video Persons Result
+This function gets the results from person tracking job submitted earlier. It loops to check job status as it changes from ``IN_PROGRESS`` state. Then it provides some basic information about the video being analyzed like the frame rate or the duration. This is followed by creating a list of paths taken by the persons within the video. We return a DataFrame with persons identified as an index starting from zero, the timestamp of the video frame where the person is present, and the bounding box left, top, height, and width dimensions for the person identified.
+
+
+```python
+def video_persons_result(jobId):
+    display('In Progress...')
+    response_person = rek.get_person_tracking(JobId=jobId)
+    while response_person['JobStatus'] == 'IN_PROGRESS':
+        time.sleep(5)
+        response_label = rek.get_person_tracking(JobId=jobId)
+
+    display('Getting Person Paths...')
+    display(f"Video Codec: {response_person['VideoMetadata']['Codec']}")
+    display(f"Video Duration (ms): {str(response_person['VideoMetadata']['DurationMillis'])}")
+    display(f"Video Format: {response_person['VideoMetadata']['Format']}")
+    display(f"Video FrameRate: {int(response_person['VideoMetadata']['FrameRate'])}")
+
+    persons = []
+    while response_person:
+        persons.extend(response_person['Persons'])
+        if 'NextToken' in response_person:
+            response_person = rek.get_person_tracking(JobId=jobId, NextToken=response_person['NextToken']) 
+        else:
+            response_person = None
+    
+    display(f'Succeeded in detecting {len(persons)} person paths.')
+    
+    df = pd.DataFrame(persons)
+    df['Left'] = df['Person'].apply(lambda x: round(x['BoundingBox']['Left'], 2) if 'BoundingBox' in x else '')
+    df['Top'] = df['Person'].apply(lambda x: round(x['BoundingBox']['Top'], 2) if 'BoundingBox' in x else '')
+    df['Height'] = df['Person'].apply(lambda x: round(x['BoundingBox']['Height'], 2) if 'BoundingBox' in x else '')
+    df['Width'] = df['Person'].apply(lambda x: round(x['BoundingBox']['Width'], 2) if 'BoundingBox' in x else '')
+    df['Index'] = df['Person'].apply(lambda x: x['Index'])
+    df = df.drop(columns=['Person'])
+
+    return df
+```
+
+
+```python
+show_video(bucket, key, 50)
+```
+
+
+
+
+
+    <div align="middle">
+        <video width="50%" controls>
+          <source src="https://s3.amazonaws.com/cloudstory/notebooks-media/alexa-for-business-people.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+
+
+
+
+```python
+df_persons = video_persons_result(personsJobId)
+df_persons.head(10)
+```
+
+
+    'In Progress...'
+
+
+
+    'Getting Person Paths...'
+
+
+
+    'Video Codec: h264'
+
+
+
+    'Video Duration (ms): 11345'
+
+
+
+    'Video Format: QuickTime / MOV'
+
+
+
+    'Video FrameRate: 23'
+
+
+
+    'Succeeded in detecting 633 person paths.'
+
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Timestamp</th>
+      <th>Left</th>
+      <th>Top</th>
+      <th>Height</th>
+      <th>Width</th>
+      <th>Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0.19</td>
+      <td>0.33</td>
+      <td>0.42</td>
+      <td>0.19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>0.42</td>
+      <td>0.38</td>
+      <td>0.38</td>
+      <td>0.19</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0.29</td>
+      <td>0.69</td>
+      <td>0.26</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>41</td>
+      <td>0.19</td>
+      <td>0.33</td>
+      <td>0.42</td>
+      <td>0.19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>41</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>41</td>
+      <td>0.42</td>
+      <td>0.38</td>
+      <td>0.38</td>
+      <td>0.19</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>41</td>
+      <td>0</td>
+      <td>0.28</td>
+      <td>0.69</td>
+      <td>0.26</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>125</td>
+      <td>0.19</td>
+      <td>0.33</td>
+      <td>0.42</td>
+      <td>0.19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>125</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Video Person Path
+This function returns the paths matching a person identified by an index. In this specific example we are searching for the lady sitting in the center of the table as the video begins. Note how the timestamp shows her presence in the video during first 2 seconds of the video, then reappearance around between the 6 and 8 seconds timeframe. Also note how the top and left attributes do not change for the bounding box indicating the lady does not appear to move within the video.
+
+
+```python
+def video_person_path(df, person):
+    df_result = df[df['Index'] == person]
+    return df_result
+```
+
+
+```python
+video_person_path(df_persons, 1)
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Timestamp</th>
+      <th>Left</th>
+      <th>Top</th>
+      <th>Height</th>
+      <th>Width</th>
+      <th>Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>41</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>125</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>166</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>250</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>291</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>375</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>458</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>500</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>583</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>625</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>709</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>792</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>834</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>917</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>959</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>1042</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>1126</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>1167</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>1251</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>1292</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>1376</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>1459</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>1501</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>1584</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>5797</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>5839</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>5922</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>5964</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>6047</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>6131</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>6172</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>6256</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>6297</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>6381</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>6464</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>6506</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>6589</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>6631</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.36</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>6715</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>6798</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>360</th>
+      <td>6840</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>6923</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>6965</td>
+      <td>0.67</td>
+      <td>0.37</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>7048</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>7132</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>7173</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>7257</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>7298</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>7382</td>
+      <td>0.67</td>
+      <td>0.38</td>
+      <td>0.35</td>
+      <td>0.2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Video Person Timeframe
+We now write a function to return persons found within a given timeframe of the video. In this example, notice how the person identified by the index 16 is "taller" than the other to persons within the frame. Around the 7 seconds timestamp, the lady in purple dress is standing while the other two persons in the room are seated at the table. The top and left values also change slightly between the two appearances of the lady within the video indicating slight movement.
+
+
+```python
+def video_person_timeframe(df, start, end):
+    df_result = df[(df['Timestamp'] >= start) & (df['Timestamp'] <= end)]
+    return df_result
+```
+
+
+```python
+video_person_timeframe(df_persons, 7900, 9000)
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Timestamp</th>
+      <th>Left</th>
+      <th>Top</th>
+      <th>Height</th>
+      <th>Width</th>
+      <th>Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>409</th>
+      <td>7924</td>
+      <td>0.46</td>
+      <td>0.17</td>
+      <td>0.76</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>410</th>
+      <td>7924</td>
+      <td>0</td>
+      <td>0.24</td>
+      <td>0.71</td>
+      <td>0.26</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>7924</td>
+      <td>0.68</td>
+      <td>0.06</td>
+      <td>0.94</td>
+      <td>0.32</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>412</th>
+      <td>7966</td>
+      <td>0.45</td>
+      <td>0.16</td>
+      <td>0.77</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>413</th>
+      <td>7966</td>
+      <td>0</td>
+      <td>0.24</td>
+      <td>0.71</td>
+      <td>0.26</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>414</th>
+      <td>7966</td>
+      <td>0.68</td>
+      <td>0.06</td>
+      <td>0.94</td>
+      <td>0.31</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>415</th>
+      <td>8049</td>
+      <td>0.44</td>
+      <td>0.17</td>
+      <td>0.76</td>
+      <td>0.2</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>416</th>
+      <td>8049</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.26</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>417</th>
+      <td>8049</td>
+      <td>0.68</td>
+      <td>0.06</td>
+      <td>0.94</td>
+      <td>0.32</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>418</th>
+      <td>8133</td>
+      <td>0.43</td>
+      <td>0.17</td>
+      <td>0.76</td>
+      <td>0.19</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>8133</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.26</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>420</th>
+      <td>8174</td>
+      <td>0.43</td>
+      <td>0.17</td>
+      <td>0.76</td>
+      <td>0.19</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>421</th>
+      <td>8174</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.26</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>422</th>
+      <td>8258</td>
+      <td>0.41</td>
+      <td>0.16</td>
+      <td>0.77</td>
+      <td>0.2</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>8258</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>424</th>
+      <td>8299</td>
+      <td>0.4</td>
+      <td>0.16</td>
+      <td>0.77</td>
+      <td>0.2</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>425</th>
+      <td>8299</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>426</th>
+      <td>8383</td>
+      <td>0.39</td>
+      <td>0.17</td>
+      <td>0.75</td>
+      <td>0.23</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>427</th>
+      <td>8383</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>428</th>
+      <td>8425</td>
+      <td>0.38</td>
+      <td>0.17</td>
+      <td>0.75</td>
+      <td>0.23</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>429</th>
+      <td>8425</td>
+      <td>0</td>
+      <td>0.25</td>
+      <td>0.71</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>430</th>
+      <td>8508</td>
+      <td>0.38</td>
+      <td>0.18</td>
+      <td>0.75</td>
+      <td>0.23</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>431</th>
+      <td>8508</td>
+      <td>0</td>
+      <td>0.24</td>
+      <td>0.72</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>432</th>
+      <td>8591</td>
+      <td>0.38</td>
+      <td>0.16</td>
+      <td>0.76</td>
+      <td>0.23</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>8591</td>
+      <td>0.01</td>
+      <td>0.25</td>
+      <td>0.68</td>
+      <td>0.28</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>434</th>
+      <td>8591</td>
+      <td>0.66</td>
+      <td>0.05</td>
+      <td>0.94</td>
+      <td>0.34</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>435</th>
+      <td>8633</td>
+      <td>0.39</td>
+      <td>0.16</td>
+      <td>0.76</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>436</th>
+      <td>8633</td>
+      <td>0.01</td>
+      <td>0.25</td>
+      <td>0.68</td>
+      <td>0.28</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>437</th>
+      <td>8633</td>
+      <td>0.67</td>
+      <td>0.05</td>
+      <td>0.94</td>
+      <td>0.33</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>438</th>
+      <td>8717</td>
+      <td>0.38</td>
+      <td>0.16</td>
+      <td>0.77</td>
+      <td>0.23</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>439</th>
+      <td>8717</td>
+      <td>0.01</td>
+      <td>0.25</td>
+      <td>0.68</td>
+      <td>0.28</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>8758</td>
+      <td>0.39</td>
+      <td>0.16</td>
+      <td>0.77</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>441</th>
+      <td>8758</td>
+      <td>0.01</td>
+      <td>0.25</td>
+      <td>0.68</td>
+      <td>0.28</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>442</th>
+      <td>8842</td>
+      <td>0.39</td>
+      <td>0.15</td>
+      <td>0.77</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>443</th>
+      <td>8842</td>
+      <td>0.01</td>
+      <td>0.25</td>
+      <td>0.69</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>444</th>
+      <td>8842</td>
+      <td>0.67</td>
+      <td>0.05</td>
+      <td>0.94</td>
+      <td>0.33</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>445</th>
+      <td>8925</td>
+      <td>0.39</td>
+      <td>0.15</td>
+      <td>0.77</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>446</th>
+      <td>8925</td>
+      <td>0.01</td>
+      <td>0.24</td>
+      <td>0.7</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>447</th>
+      <td>8925</td>
+      <td>0.67</td>
+      <td>0.05</td>
+      <td>0.95</td>
+      <td>0.33</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>448</th>
+      <td>8967</td>
+      <td>0.39</td>
+      <td>0.15</td>
+      <td>0.77</td>
+      <td>0.22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>449</th>
+      <td>8967</td>
+      <td>0.01</td>
+      <td>0.23</td>
+      <td>0.7</td>
+      <td>0.27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>450</th>
+      <td>8967</td>
+      <td>0.67</td>
+      <td>0.05</td>
+      <td>0.95</td>
+      <td>0.33</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Video Persons Frequency
+Now we are writing a simple function to indicate how frequently a person identified by an index appears during the entire video. In this example, the three persons sitting on the table facing the camera appear for during most of the video. One also notes that the API recognizes 22 persons during the course of the video. One may want to cross verify this result with the video and the label detection output which identifies 12 persons at max within a frame.
+
+
+```python
+def video_persons_frequency(df):
+    return df.groupby('Index')['Timestamp'].nunique()
+```
+
+
+```python
+video_persons_frequency(df_persons)
+```
+
+
+
+
+    Index
+    0     50
+    1     50
+    2     50
+    3     25
+    4     34
+    5     34
+    6     29
+    7     25
+    8     23
+    9     28
+    10    20
+    11    23
+    12     6
+    13    25
+    14    36
+    15    33
+    16    16
+    17    23
+    18    18
+    19    23
+    20    23
+    21    23
+    22    16
+    Name: Timestamp, dtype: int64
 
 
