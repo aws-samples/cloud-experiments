@@ -1,7 +1,5 @@
 
 ## Optimizing data for analysis with Amazon Athena and AWS Glue
-by Manav Sehgal | on APR 30 2019
-
 
 We will continue our open data analytics workflow starting with the AWS Console then moving to using the notebook. Using [AWS Glue](https://aws.amazon.com/glue/) we can automate creating a metadata catalog based on flat files stored on Amazon S3. Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. You can create and run an ETL job with a few clicks in the AWS Management Console. You simply point AWS Glue to your data stored on AWS, and AWS Glue discovers your data and stores the associated metadata (e.g. table definition and schema) in the AWS Glue Data Catalog. Once cataloged, your data is immediately searchable, queryable, and available for ETL.
 
@@ -228,96 +226,96 @@ df.head()
       <th>0</th>
       <td>2</td>
       <td>1</td>
-      <td>1.66</td>
+      <td>1.25</td>
       <td>1</td>
-      <td>186</td>
-      <td>79</td>
+      <td>237</td>
+      <td>236</td>
       <td>1</td>
-      <td>11.5</td>
-      <td>0.0</td>
-      <td>0.5</td>
-      <td>3.69</td>
-      <td>0.0</td>
-      <td>0.3</td>
-      <td>15.99</td>
-      <td>2018-06-25 12:08:55</td>
-      <td>2018-06-25 12:24:55</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0.50</td>
-      <td>1</td>
-      <td>151</td>
-      <td>151</td>
-      <td>2</td>
-      <td>4.0</td>
+      <td>9.0</td>
       <td>0.0</td>
       <td>0.5</td>
       <td>0.00</td>
       <td>0.0</td>
       <td>0.3</td>
-      <td>4.80</td>
-      <td>2018-06-25 12:17:33</td>
-      <td>2018-06-25 12:20:18</td>
+      <td>9.80</td>
+      <td>2018-06-06 10:43:34</td>
+      <td>2018-06-06 10:54:58</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1.20</td>
+      <td>1</td>
+      <td>158</td>
+      <td>90</td>
+      <td>2</td>
+      <td>7.5</td>
+      <td>0.0</td>
+      <td>0.5</td>
+      <td>0.00</td>
+      <td>0.0</td>
+      <td>0.3</td>
+      <td>8.30</td>
+      <td>2018-06-06 10:06:22</td>
+      <td>2018-06-06 10:15:21</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1</td>
       <td>1</td>
-      <td>0.70</td>
+      <td>3.30</td>
       <td>1</td>
-      <td>239</td>
-      <td>143</td>
+      <td>234</td>
+      <td>236</td>
       <td>1</td>
-      <td>5.0</td>
+      <td>17.0</td>
       <td>0.0</td>
       <td>0.5</td>
-      <td>1.15</td>
+      <td>3.55</td>
       <td>0.0</td>
       <td>0.3</td>
-      <td>6.95</td>
-      <td>2018-06-25 12:27:45</td>
-      <td>2018-06-25 12:32:21</td>
+      <td>21.35</td>
+      <td>2018-06-06 10:17:20</td>
+      <td>2018-06-06 10:43:07</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1</td>
       <td>1</td>
-      <td>1.10</td>
+      <td>0.90</td>
       <td>1</td>
-      <td>143</td>
-      <td>48</td>
+      <td>236</td>
+      <td>140</td>
       <td>1</td>
-      <td>8.5</td>
+      <td>7.0</td>
       <td>0.0</td>
       <td>0.5</td>
-      <td>1.85</td>
+      <td>1.55</td>
       <td>0.0</td>
       <td>0.3</td>
-      <td>11.15</td>
-      <td>2018-06-25 12:34:45</td>
-      <td>2018-06-25 12:45:39</td>
+      <td>9.35</td>
+      <td>2018-06-06 10:48:28</td>
+      <td>2018-06-06 10:57:08</td>
     </tr>
     <tr>
       <th>4</th>
       <td>1</td>
       <td>1</td>
-      <td>3.00</td>
+      <td>1.00</td>
       <td>1</td>
-      <td>48</td>
-      <td>144</td>
+      <td>141</td>
+      <td>162</td>
       <td>1</td>
-      <td>18.0</td>
+      <td>7.0</td>
       <td>0.0</td>
       <td>0.5</td>
-      <td>3.75</td>
+      <td>1.95</td>
       <td>0.0</td>
       <td>0.3</td>
-      <td>22.55</td>
-      <td>2018-06-25 12:50:28</td>
-      <td>2018-06-25 13:17:50</td>
+      <td>9.75</td>
+      <td>2018-06-06 10:59:28</td>
+      <td>2018-06-06 11:08:05</td>
     </tr>
   </tbody>
 </table>
@@ -361,206 +359,206 @@ corr
     <tr>
       <th>vendor</th>
       <td>1.000000</td>
-      <td>0.238296</td>
-      <td>0.077524</td>
-      <td>0.068357</td>
-      <td>-0.092944</td>
-      <td>-0.034407</td>
-      <td>-0.036761</td>
-      <td>0.074508</td>
-      <td>-0.036058</td>
-      <td>-0.023648</td>
-      <td>0.030579</td>
-      <td>0.084248</td>
+      <td>0.283619</td>
+      <td>0.015401</td>
+      <td>0.055897</td>
+      <td>-0.024097</td>
+      <td>-0.005115</td>
+      <td>0.013634</td>
+      <td>-0.014083</td>
       <td>NaN</td>
-      <td>0.081624</td>
+      <td>-0.009308</td>
+      <td>-0.024436</td>
+      <td>0.025840</td>
+      <td>NaN</td>
+      <td>-0.015078</td>
     </tr>
     <tr>
       <th>passengers</th>
-      <td>0.238296</td>
+      <td>0.283619</td>
       <td>1.000000</td>
-      <td>0.095732</td>
-      <td>-0.005490</td>
-      <td>-0.076036</td>
-      <td>-0.076054</td>
-      <td>0.014215</td>
-      <td>0.081750</td>
-      <td>-0.017374</td>
-      <td>-0.001874</td>
-      <td>-0.015566</td>
-      <td>0.069677</td>
+      <td>0.033053</td>
+      <td>0.051624</td>
+      <td>-0.021166</td>
+      <td>0.003783</td>
+      <td>0.020200</td>
+      <td>0.035106</td>
       <td>NaN</td>
-      <td>0.076785</td>
+      <td>-0.022736</td>
+      <td>0.008936</td>
+      <td>0.003765</td>
+      <td>NaN</td>
+      <td>0.033289</td>
     </tr>
     <tr>
       <th>distance</th>
-      <td>0.077524</td>
-      <td>0.095732</td>
+      <td>0.015401</td>
+      <td>0.033053</td>
       <td>1.000000</td>
-      <td>0.242507</td>
-      <td>-0.141246</td>
-      <td>-0.096056</td>
-      <td>-0.062153</td>
-      <td>0.938340</td>
-      <td>0.052227</td>
-      <td>-0.054501</td>
-      <td>0.298860</td>
-      <td>0.436946</td>
+      <td>0.119010</td>
+      <td>-0.119491</td>
+      <td>-0.148011</td>
+      <td>-0.068732</td>
+      <td>0.917127</td>
       <td>NaN</td>
-      <td>0.925564</td>
+      <td>-0.080828</td>
+      <td>0.389773</td>
+      <td>0.401863</td>
+      <td>NaN</td>
+      <td>0.903529</td>
     </tr>
     <tr>
       <th>rate</th>
-      <td>0.068357</td>
-      <td>-0.005490</td>
-      <td>0.242507</td>
+      <td>0.055897</td>
+      <td>0.051624</td>
+      <td>0.119010</td>
       <td>1.000000</td>
-      <td>-0.042799</td>
-      <td>0.041559</td>
-      <td>0.000932</td>
-      <td>0.299689</td>
-      <td>-0.005752</td>
-      <td>-0.354991</td>
-      <td>0.037742</td>
-      <td>0.425105</td>
+      <td>-0.042557</td>
+      <td>-0.053956</td>
+      <td>-0.007774</td>
+      <td>0.185992</td>
       <td>NaN</td>
-      <td>0.297754</td>
+      <td>-0.501256</td>
+      <td>0.083778</td>
+      <td>0.246460</td>
+      <td>NaN</td>
+      <td>0.184445</td>
     </tr>
     <tr>
       <th>pick_location</th>
-      <td>-0.092944</td>
-      <td>-0.076036</td>
-      <td>-0.141246</td>
-      <td>-0.042799</td>
+      <td>-0.024097</td>
+      <td>-0.021166</td>
+      <td>-0.119491</td>
+      <td>-0.042557</td>
       <td>1.000000</td>
-      <td>0.059865</td>
-      <td>-0.048540</td>
-      <td>-0.133984</td>
-      <td>-0.030212</td>
-      <td>-0.007770</td>
-      <td>-0.009387</td>
-      <td>-0.128544</td>
+      <td>0.150656</td>
+      <td>-0.009998</td>
+      <td>-0.129692</td>
       <td>NaN</td>
-      <td>-0.123821</td>
+      <td>0.010869</td>
+      <td>-0.028087</td>
+      <td>-0.153488</td>
+      <td>NaN</td>
+      <td>-0.127936</td>
     </tr>
     <tr>
       <th>drop_location</th>
-      <td>-0.034407</td>
-      <td>-0.076054</td>
-      <td>-0.096056</td>
-      <td>0.041559</td>
-      <td>0.059865</td>
+      <td>-0.005115</td>
+      <td>0.003783</td>
+      <td>-0.148011</td>
+      <td>-0.053956</td>
+      <td>0.150656</td>
       <td>1.000000</td>
-      <td>-0.039523</td>
-      <td>-0.088936</td>
-      <td>-0.046106</td>
-      <td>0.010432</td>
-      <td>-0.013009</td>
-      <td>-0.062082</td>
+      <td>0.003079</td>
+      <td>-0.162211</td>
       <td>NaN</td>
-      <td>-0.081411</td>
+      <td>0.090225</td>
+      <td>-0.042135</td>
+      <td>-0.087721</td>
+      <td>NaN</td>
+      <td>-0.154017</td>
     </tr>
     <tr>
       <th>payment_type</th>
-      <td>-0.036761</td>
-      <td>0.014215</td>
-      <td>-0.062153</td>
-      <td>0.000932</td>
-      <td>-0.048540</td>
-      <td>-0.039523</td>
+      <td>0.013634</td>
+      <td>0.020200</td>
+      <td>-0.068732</td>
+      <td>-0.007774</td>
+      <td>-0.009998</td>
+      <td>0.003079</td>
       <td>1.000000</td>
-      <td>-0.054463</td>
-      <td>-0.023117</td>
-      <td>-0.063883</td>
-      <td>-0.794920</td>
-      <td>-0.057032</td>
+      <td>-0.073051</td>
       <td>NaN</td>
-      <td>-0.193921</td>
+      <td>-0.015087</td>
+      <td>-0.776507</td>
+      <td>-0.068458</td>
+      <td>NaN</td>
+      <td>-0.212893</td>
     </tr>
     <tr>
       <th>fare</th>
-      <td>0.074508</td>
-      <td>0.081750</td>
-      <td>0.938340</td>
-      <td>0.299689</td>
-      <td>-0.133984</td>
-      <td>-0.088936</td>
-      <td>-0.054463</td>
+      <td>-0.014083</td>
+      <td>0.035106</td>
+      <td>0.917127</td>
+      <td>0.185992</td>
+      <td>-0.129692</td>
+      <td>-0.162211</td>
+      <td>-0.073051</td>
       <td>1.000000</td>
-      <td>0.053676</td>
-      <td>-0.100019</td>
-      <td>0.300108</td>
-      <td>0.436757</td>
       <td>NaN</td>
-      <td>0.983445</td>
+      <td>-0.091508</td>
+      <td>0.425216</td>
+      <td>0.395950</td>
+      <td>NaN</td>
+      <td>0.983444</td>
     </tr>
     <tr>
       <th>extra_fare</th>
-      <td>-0.036058</td>
-      <td>-0.017374</td>
-      <td>0.052227</td>
-      <td>-0.005752</td>
-      <td>-0.030212</td>
-      <td>-0.046106</td>
-      <td>-0.023117</td>
-      <td>0.053676</td>
-      <td>1.000000</td>
-      <td>0.002005</td>
-      <td>0.055899</td>
-      <td>-0.009071</td>
       <td>NaN</td>
-      <td>0.053543</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>tax</th>
-      <td>-0.023648</td>
-      <td>-0.001874</td>
-      <td>-0.054501</td>
-      <td>-0.354991</td>
-      <td>-0.007770</td>
-      <td>0.010432</td>
-      <td>-0.063883</td>
-      <td>-0.100019</td>
-      <td>0.002005</td>
-      <td>1.000000</td>
-      <td>0.068946</td>
-      <td>-0.173752</td>
+      <td>-0.009308</td>
+      <td>-0.022736</td>
+      <td>-0.080828</td>
+      <td>-0.501256</td>
+      <td>0.010869</td>
+      <td>0.090225</td>
+      <td>-0.015087</td>
+      <td>-0.091508</td>
       <td>NaN</td>
-      <td>-0.098109</td>
+      <td>1.000000</td>
+      <td>0.012988</td>
+      <td>-0.148891</td>
+      <td>NaN</td>
+      <td>-0.089695</td>
     </tr>
     <tr>
       <th>tip</th>
-      <td>0.030579</td>
-      <td>-0.015566</td>
-      <td>0.298860</td>
-      <td>0.037742</td>
-      <td>-0.009387</td>
-      <td>-0.013009</td>
-      <td>-0.794920</td>
-      <td>0.300108</td>
-      <td>0.055899</td>
-      <td>0.068946</td>
-      <td>1.000000</td>
-      <td>0.163707</td>
+      <td>-0.024436</td>
+      <td>0.008936</td>
+      <td>0.389773</td>
+      <td>0.083778</td>
+      <td>-0.028087</td>
+      <td>-0.042135</td>
+      <td>-0.776507</td>
+      <td>0.425216</td>
       <td>NaN</td>
-      <td>0.436410</td>
+      <td>0.012988</td>
+      <td>1.000000</td>
+      <td>0.267483</td>
+      <td>NaN</td>
+      <td>0.555170</td>
     </tr>
     <tr>
       <th>toll</th>
-      <td>0.084248</td>
-      <td>0.069677</td>
-      <td>0.436946</td>
-      <td>0.425105</td>
-      <td>-0.128544</td>
-      <td>-0.062082</td>
-      <td>-0.057032</td>
-      <td>0.436757</td>
-      <td>-0.009071</td>
-      <td>-0.173752</td>
-      <td>0.163707</td>
+      <td>0.025840</td>
+      <td>0.003765</td>
+      <td>0.401863</td>
+      <td>0.246460</td>
+      <td>-0.153488</td>
+      <td>-0.087721</td>
+      <td>-0.068458</td>
+      <td>0.395950</td>
+      <td>NaN</td>
+      <td>-0.148891</td>
+      <td>0.267483</td>
       <td>1.000000</td>
       <td>NaN</td>
-      <td>0.443817</td>
+      <td>0.403146</td>
     </tr>
     <tr>
       <th>surcharge</th>
@@ -581,18 +579,18 @@ corr
     </tr>
     <tr>
       <th>total_fare</th>
-      <td>0.081624</td>
-      <td>0.076785</td>
-      <td>0.925564</td>
-      <td>0.297754</td>
-      <td>-0.123821</td>
-      <td>-0.081411</td>
-      <td>-0.193921</td>
-      <td>0.983445</td>
-      <td>0.053543</td>
-      <td>-0.098109</td>
-      <td>0.436410</td>
-      <td>0.443817</td>
+      <td>-0.015078</td>
+      <td>0.033289</td>
+      <td>0.903529</td>
+      <td>0.184445</td>
+      <td>-0.127936</td>
+      <td>-0.154017</td>
+      <td>-0.212893</td>
+      <td>0.983444</td>
+      <td>NaN</td>
+      <td>-0.089695</td>
+      <td>0.555170</td>
+      <td>0.403146</td>
       <td>NaN</td>
       <td>1.000000</td>
     </tr>
@@ -614,38 +612,34 @@ df = df.drop(columns=['surcharge'])
 corr = df.corr(method ='spearman')
 ```
 
+### Heatmap
 Completing the data science workflow from sourcing big data, wrangling it using Amazon Athena to well formed schema, bringing adequate sample data from Athena to notebook environment, conducting exploratory data analysis, and finally visualizing the results.
 
 
 ```python
-sns.set(style="white")
+def heatmap(corr):
+    sns.set(style="white")
 
-# Generate a mask for the upper triangle
-mask = np.zeros_like(corr, dtype=np.bool)
-mask[np.triu_indices_from(mask)] = True
+    # Generate a mask for the upper triangle
+    mask = np.zeros_like(corr, dtype=np.bool)
+    mask[np.triu_indices_from(mask)] = True
 
-# Set up the matplotlib figure
-f, ax = plt.subplots(figsize=(11, 9))
+    # Set up the matplotlib figure
+    f, ax = plt.subplots(figsize=(11, 9))
 
-# Generate a custom diverging colormap
-cmap = sns.diverging_palette(220, 10, as_cmap=True)
+    # Generate a custom diverging colormap
+    cmap = sns.diverging_palette(220, 10, as_cmap=True)
 
-# Draw the heatmap with the mask and correct aspect ratio
-sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0, annot=True, fmt="3.2f",
-            square=True, linewidths=.5, cbar_kws={"shrink": .5})
+    # Draw the heatmap with the mask and correct aspect ratio
+    sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0, annot=True, fmt="3.2f",
+                square=True, linewidths=.5, cbar_kws={"shrink": .5})
 ```
 
 
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f0d3d04b080>
-
-
+```python
+heatmap(corr)
+```
 
 
 ![Seaborn Correlation Plot](https://s3.amazonaws.com/cloudstory/notebooks-media/seaborn-corr.png)
-
-
-#### Optimizing data for analysis with Amazon Athena and AWS Glue
-by Manav Sehgal | on APR 30 2019
 
