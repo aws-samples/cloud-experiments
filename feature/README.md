@@ -31,7 +31,7 @@ Moreover, based on our public sector clients, we've learnt that there's [an incr
 Once we've completed these workflow notebooks we build the following solution architecture, which is serverless and requires no procurement of software licenses. There's no need for managing any servers, virtual or otherwise, or operating systems. These services follow a pay-per-use billing policy.
 
 
-![jpg](/images/Medical_Resume_Architecture.jpg)
+![jpg](./images/Medical_Resume_Architecture.jpg)
 
 ## Setup Notebook Environment
 
