@@ -23,7 +23,7 @@ We will continue our open data analytics workflow starting with the AWS Console 
 
 ### [Cloudstory API](https://github.com/aws-samples/aws-open-data-analytics-notebooks/tree/master/cloudstory-api/)
 
-Cloudstory API Python module and demo of using the API. The cloudstory API is documented in the other notebooks listed above.
+Cloudstory API Python module and demo of using the API. The cloudstory API is documented in the other notebooks listed here.
 
 ### [Comprehend Medical for Electronic Health Records](https://github.com/aws-samples/aws-open-data-analytics-notebooks/tree/master/comprehend-medical-ehr)
 Amazon Comprehend Medical is an API-level service which is HIPAA eligible and uses machine learning to extract medical information with high accuracy. The service eliminates the barriers to entry to access the biomedical knowledge stored in natural language text - from the research literature that entails biological processes and therapeutic mechanisms of action to the Electronic Medical Records that have the patients’ journeys through our healthcare systems documented. The service also helps us comb through that information and study relationships like symptoms, diagnosis, medication, dosage while redacting the Protected Health Information (PHI). This is an illustrative notebook that includes a step-by-step workflow for analyzing health data on the cloud.
