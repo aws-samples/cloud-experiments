@@ -1,8 +1,3 @@
-# Contributors
-The project was developed by - 
-* [Pratyush Choudhury](https://www.linkedin.com/in/pratyushchoudhury/)
-* [Avanish Yadav](https://www.linkedin.com/in/avanish-yadav-237936171/)
-
 # Using Amazon Comprehend Medical to build a digital assistant for doctors
 
 Artificial Intelligence could potentially speed up the development of the process of new drug development, be a bridge to personalized medicine using the information of our genomes, and help address the problem of chronic shortage of doctors, especially in countries where health services are underdeveloped. However, significant challenges remain en-route to this utopian destination.
