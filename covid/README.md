@@ -25,11 +25,7 @@ cv.summary_stats(df)
 
 
 
-
-<style  type="text/css" >
-    #T_93c5388e_6cbe_11ea_8546_0d05c7915f46row4_col0 {
-            background-color:  pink;
-        }</style><table id="T_93c5388e_6cbe_11ea_8546_0d05c7915f46" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Latest</th>    </tr></thead><tbody>
+<table id="T_93c5388e_6cbe_11ea_8546_0d05c7915f46" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Latest</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_93c5388e_6cbe_11ea_8546_0d05c7915f46level0_row0" class="row_heading level0 row0" >Indian</th>
                         <td id="T_93c5388e_6cbe_11ea_8546_0d05c7915f46row0_col0" class="data row0 col0" >319</td>
@@ -66,20 +62,7 @@ cv.display_stats(df)
 
 
 
-<style  type="text/css" >
-    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row0_col1 {
-            background-color:  pink;
-        }    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row0_col4 {
-            background-color:  pink;
-        }    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row0_col5 {
-            background-color:  pink;
-        }    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row0_col6 {
-            background-color:  pink;
-        }    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row4_col2 {
-            background-color:  pink;
-        }    #T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row8_col3 {
-            background-color:  pink;
-        }</style><table id="T_96b14ef2_6cbe_11ea_8546_0d05c7915f46" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >State</th>        <th class="col_heading level0 col1" >Indian</th>        <th class="col_heading level0 col2" >Foreign</th>        <th class="col_heading level0 col3" >Discharged</th>        <th class="col_heading level0 col4" >Death</th>        <th class="col_heading level0 col5" >Confirmed</th>        <th class="col_heading level0 col6" >Active</th>    </tr></thead><tbody>
+<table id="T_96b14ef2_6cbe_11ea_8546_0d05c7915f46" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >State</th>        <th class="col_heading level0 col1" >Indian</th>        <th class="col_heading level0 col2" >Foreign</th>        <th class="col_heading level0 col3" >Discharged</th>        <th class="col_heading level0 col4" >Death</th>        <th class="col_heading level0 col5" >Confirmed</th>        <th class="col_heading level0 col6" >Active</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_96b14ef2_6cbe_11ea_8546_0d05c7915f46level0_row0" class="row_heading level0 row0" >10</th>
                         <td id="T_96b14ef2_6cbe_11ea_8546_0d05c7915f46row0_col0" class="data row0 col0" >Maharashtra</td>
