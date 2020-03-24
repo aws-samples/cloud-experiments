@@ -315,7 +315,7 @@ cv.linear_regression(df)
 ```
 
 
-![png](output_5_0.png)
+![](output_5_0.png)
 
 
 ### COVID-19 Open Datasets, Dashboards, and Apps
