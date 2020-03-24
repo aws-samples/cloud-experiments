@@ -26,12 +26,6 @@ def summary_stats(df):
     return df2.style.apply(highlight_max,subset=['Latest'])
 
 def display_stats(df):
-    yesterday = date.today() - timedelta(days=1)
-    yesterday_file = yesterday.strftime('%Y-%m-%d') + '-covid-india-stats.csv'
-    if path.exists(yesterday_file):
-        df_past = pd.read_csv(yesterday_file)
-        df['New'] = df['Confirmed'] - df_past['Confirmed']
-    
     df = df.sort_values(by=['Active'], ascending=False)
     return df.style.apply(highlight_max,subset=['Confirmed', 'Active', 'Discharged', 
                                                 'Death','Indian','Foreign'])
@@ -87,7 +81,7 @@ def get_today_stats(force = False):
         stats_df['Foreign'] = stats_df['Foreign'].astype(int)
         stats_df['Discharged'] = stats_df['Discharged'].astype(int)
         stats_df['Death'] = stats_df['Death'].astype(int)
-        stats_df['Confirmed'] = stats_df['Indian'] + stats_df['Foreign'] + stats_df['Discharged'] + stats_df['Death']
+        stats_df['Confirmed'] = stats_df['Indian'] + stats_df['Foreign']
         stats_df['Active'] = stats_df['Indian'] + stats_df['Foreign'] - stats_df['Discharged'] - stats_df['Death']
 
         stats_df.to_csv(today_file, index=False)
