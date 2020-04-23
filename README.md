@@ -1,6 +1,6 @@
-## AWS Open Data Analytics Notebooks
+## COVID Response - Open Data Analytics Notebooks
 
-**AWS analytics, AI, and data science service abstractions API and samples built in Amazon SageMaker notebooks**
+**COVID Response - analytics, AI, data science API, and sample notebooks**
 
 This repository contains a series of notebooks following step-by-step workflow for analytics, AI, and data science on AWS cloud. We will present these notebooks with guidance on using AWS Cloud programmatically, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing an abstrated reusable API for analytics, AI, and data science workflow on the cloud. The first step in this workflow is sourcing the appropriate open dataset(s) for setting up our analytics pipeline.
 
