@@ -22,11 +22,23 @@ We use [Streamlit](https://streamlit.io/) for many expriments in this repository
 
 These three steps will set you up for running experiments on your laptop.
 
-Step 1: Setup AWS IAM user with programmatic access.
+Step 1: Setup [AWS IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) with programmatic access.
 
 Step 2: Install AWS Shell and configure IAM credentials.
 
+```
+pip install aws-shell
+aws-shell
+aws> configure
+```
+
 Step 3: Install Streamlit. Clone repo. Run app.
+
+```
+pip install streamlit
+clone https://github.com/aws-samples/cloud-experiments
+streamlit run cloud-experiments/open-data-explorer/s3-app.py
+```
 
 ### [Open Data Explorer](https://github.com/aws-samples/cloud-experiments/tree/master/open-data-explorer)
 
