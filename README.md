@@ -12,6 +12,8 @@ All you need to run these experiments is access to an AWS Console from your web 
 
 Smarter cities will have smarter transportation including multi-modal, eco-friendly, balancing commuter convenience with safety and social distancing. This 60 minute experiment uses open data for good and low/no code services provided by AWS to enable insights for business model innovation in smart transport use case. The experiment is intended as a step-by-step guided co-innovation and design workshop along with an AWS specialist. If you are familiar with the pre-requisites specified in the Cloud Experiment Guide (last section of this experiment) then feel free to make this experiment your own.
 
+![](https://github.com/aws-samples/cloud-experiments/blob/master/flying-cars-with-glue-databrew/splash.png)
+
 ## Streamlit Apps
 
 We use [Streamlit](https://streamlit.io/) for many expriments in this repository. Streamlit is the fastest way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required.
@@ -23,8 +25,6 @@ Step 1: Setup AWS IAM user with programmatic access.
 Step 2: Install AWS Shell and configure IAM credentials.
 
 Step 3: Install Streamlit. Clone repo. Run app.
-
-![](https://github.com/aws-samples/cloud-experiments/blob/master/flying-cars-with-glue-databrew/splash.png)
 
 ### [Open Data Explorer](https://github.com/aws-samples/cloud-experiments/tree/master/open-data-explorer)
 
