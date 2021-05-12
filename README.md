@@ -32,6 +32,12 @@ Apps and API for exploring open data sources including [AWS Registry of Open Dat
 
 ![](https://github.com/aws-samples/cloud-experiments/blob/master/open-data-explorer/s3-app-start.png)
 
+## [COVID EDA and Models](https://github.com/aws-samples/cloud-experiments/tree/master/covid-insights)
+
+Experiments for running exploratory data analysis (EDA) and models on COVID related open datasets. This includes Case Fatality Rate model on country data from John Hopkins. EDA techniques include growth factor analysis, cases growth rate, doubling rate, recovery and mortality rate, and country-wise analysis.
+
+![](https://github.com/aws-samples/cloud-experiments/blob/master/covid-insights/cfr.png)
+
 ## Amazon SageMaker Notebooks
 
 You may want to run these notebooks using [Amazon SageMaker](https://aws.amazon.com/sagemaker/). Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
