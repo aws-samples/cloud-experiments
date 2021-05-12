@@ -1,11 +1,10 @@
-## COVID Response - Open Data Analytics Notebooks
+## Cloud Experiments
 
-**COVID Response - analytics, AI, data science API, and sample notebooks**
+**Sample notebooks, starter apps, and low/no code guides for rapidly (within 60-minutes) building and running open innovation experiments on AWS Cloud**
 
-This repository contains a series of notebooks following step-by-step workflow for analytics, AI, and data science on AWS cloud. We will present these notebooks with guidance on using AWS Cloud programmatically, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing an abstrated reusable API for analytics, AI, and data science workflow on the cloud. The first step in this workflow is sourcing the appropriate open dataset(s) for setting up our analytics pipeline.
+Cloud experiments follow step-by-step workflow for performing analytics, machine learning, AI, and data science on AWS cloud. We present guidance on using AWS Cloud programmatically or visually using the console, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing an abstrated reusable API for rapidly deploying these experiments on AWS cloud.
 
 You may want to run these notebooks using [Amazon SageMaker](https://aws.amazon.com/sagemaker/). Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
-
 
 ### [COVID Insights](https://github.com/aws-samples/aws-open-data-analytics-notebooks/tree/master/covid)
 This notebook provides a catalog of open datasets for deriving insights related to COVID-19 and helping open source and open data community to collaborate in fighting this global threat. The notebook provides (a) reusable API to speed up open data analytics related to COVID-19, customized for India however can be adopted for other countries, (b) sample usage of the API, (c) documentation of insights, and (d) catalog of open datasets referenced.
