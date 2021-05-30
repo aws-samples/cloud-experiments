@@ -36,13 +36,15 @@ aws-shell
 aws> configure
 ```
 
-Step 3: Install Streamlit. Clone repo. Run app.
+Step 3: Install Streamlit. Clone repo. Add path to API. Run app.
 
 ```
 pip install streamlit
 clone https://github.com/aws-samples/cloud-experiments
-streamlit run cloud-experiments/open-data-explorer/s3-app.py
+export PYTHONPATH="$HOME/WhereYouClonedRepo/cloud-experiments"
+streamlit run cloud-experiments/experiments/data-apps/open_data_explorer/s3-app.py
 ```
+
 
 ### [Open Data Explorer](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open_data_explorer)
 
