@@ -44,17 +44,17 @@ clone https://github.com/aws-samples/cloud-experiments
 streamlit run cloud-experiments/open-data-explorer/s3-app.py
 ```
 
-### [Open Data Explorer](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open-data-explorer)
+### [Open Data Explorer](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open_data_explorer)
 
 Apps and API for exploring open data sources including [AWS Registry of Open Data](https://registry.opendata.aws/) which lists datasets for genomics, satellite, transport, COVID, medical imaging, and other use cases in data for social good.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/open-data-explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open-data-explorer)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/open_data_explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open_data_explorer)
 
-## [COVID EDA and Models](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
+## [COVID EDA and Models](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid_insights)
 
 Experiments for running exploratory data analysis (EDA) and models on COVID related open datasets. This includes Case Fatality Rate model on country data from John Hopkins. EDA techniques include growth factor analysis, cases growth rate, doubling rate, recovery and mortality rate, and country-wise analysis.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/covid-insights/cfr.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/covid_insights/cfr.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid_insights)
 
 ## Notebooks
 

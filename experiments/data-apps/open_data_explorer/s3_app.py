@@ -1,5 +1,5 @@
 import streamlit as st
-import s3
+from api.streamlit_experiments import s3
 
 st.header('Amazon S3 App')
 tabs = st.radio('Choose S3 action', 

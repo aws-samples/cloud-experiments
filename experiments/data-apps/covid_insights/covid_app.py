@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import covid as cov
+from api.streamlit_experiments import covid as cov
 
 st.title('COVID Exploratory Data Analysis')
 
 # Data from https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv
 
-covid = pd.read_csv('data/494724_1196190_compressed_covid_19_data.csv.zip')
+covid = pd.read_csv('494724_1196190_compressed_covid_19_data.csv.zip')
 
 # Dropping column as SNo is of no use, and 'Province/State' contains too many missing values
 covid.drop(['SNo'], 1, inplace=True)
