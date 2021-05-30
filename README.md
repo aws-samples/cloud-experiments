@@ -6,7 +6,7 @@ Cloud experiments follow step-by-step workflow for performing analytics, machine
 
 **Documentation:** [Why Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/why-cloud-experiments.md) | [What Are Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/what-are-cloud-experiments.md)
 
-**Cloud Experiments:** [Guides](https://github.com/aws-samples/cloud-experiments#lowno-code-guides) | [Exploratory Data Apps](https://github.com/aws-samples/cloud-experiments#streamlit-apps) | [Notebooks](https://github.com/aws-samples/cloud-experiments#amazon-sagemaker-notebooks)
+**Cloud Experiments:** [Guides](https://github.com/aws-samples/cloud-experiments#guides) | [Exploratory Data Apps](https://github.com/aws-samples/cloud-experiments#exploratory-data-apps) | [Notebooks](https://github.com/aws-samples/cloud-experiments#notebooks)
 
 [![](cloud-experiments.png)](https://github.com/aws-samples/cloud-experiments)
 
