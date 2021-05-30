@@ -4,6 +4,8 @@
 
 Cloud experiments follow step-by-step workflow for performing analytics, machine learning, AI, and data science on AWS cloud. We present guidance on using AWS Cloud programmatically or visually using the console, introduce relevant AWS services, explaining the code, reviewing the code outputs, evaluating alternative steps in our workflow, and ultimately designing an abstrated reusable API for rapidly deploying these experiments on AWS cloud.
 
+**Documentation:** [Why Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/why-cloud-experiments.md) | [What Are Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/what-are-cloud-experiments.md)
+
 [![](cloud-experiments.png)](https://github.com/aws-samples/cloud-experiments)
 
 ## Low/No Code Guides
