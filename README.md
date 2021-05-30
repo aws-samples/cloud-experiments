@@ -48,7 +48,7 @@ streamlit run cloud-experiments/open-data-explorer/s3-app.py
 
 Apps and API for exploring open data sources including [AWS Registry of Open Data](https://registry.opendata.aws/) which lists datasets for genomics, satellite, transport, COVID, medical imaging, and other use cases in data for social good.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/open-data-explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/open-data-explorer)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/open-data-explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/open-data-explorer)
 
 ## [COVID EDA and Models](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
 
