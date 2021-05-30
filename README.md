@@ -18,7 +18,7 @@ All you need to run these experiments is access to an AWS Console from your web 
 
 Smarter cities will have smarter transportation including multi-modal, eco-friendly, balancing commuter convenience with safety and social distancing. This 60 minute experiment uses open data for good and low/no code services provided by AWS to enable insights for business model innovation in smart transport use case. The experiment is intended as a step-by-step guided co-innovation and design workshop along with an AWS specialist. If you are familiar with the pre-requisites specified in the Cloud Experiment Guide (last section of this experiment) then feel free to make this experiment your own.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/flying-cars-with-glue-databrew/splash.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/guides/flying-cars-with-glue-databrew)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/guides/flying-cars-with-glue-databrew/splash.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/guides/flying-cars-with-glue-databrew)
 
 ## Exploratory Data Apps
 
@@ -48,13 +48,13 @@ streamlit run cloud-experiments/open-data-explorer/s3-app.py
 
 Apps and API for exploring open data sources including [AWS Registry of Open Data](https://registry.opendata.aws/) which lists datasets for genomics, satellite, transport, COVID, medical imaging, and other use cases in data for social good.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/open-data-explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/open-data-explorer)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/open-data-explorer/s3-app-start.png)](https://github.com/aws-samples/cloud-experiments/tree/master/open-data-explorer)
 
 ## [COVID EDA and Models](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
 
 Experiments for running exploratory data analysis (EDA) and models on COVID related open datasets. This includes Case Fatality Rate model on country data from John Hopkins. EDA techniques include growth factor analysis, cases growth rate, doubling rate, recovery and mortality rate, and country-wise analysis.
 
-[![](https://github.com/aws-samples/cloud-experiments/blob/master/covid-insights/cfr.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
+[![](https://github.com/aws-samples/cloud-experiments/blob/master/experiments/data-apps/covid-insights/cfr.png)](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/data-apps/covid-insights)
 
 ## Notebooks
 
