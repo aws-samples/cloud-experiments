@@ -6,9 +6,11 @@ Cloud experiments follow step-by-step workflow for performing analytics, machine
 
 **Documentation:** [Why Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/why-cloud-experiments.md) | [What Are Cloud Experiments](https://github.com/aws-samples/cloud-experiments/tree/master/docs/what-are-cloud-experiments.md)
 
+**Cloud Experiments:** [Guides](https://github.com/aws-samples/cloud-experiments#lowno-code-guides) | [Exploratory Data Apps](https://github.com/aws-samples/cloud-experiments#streamlit-apps) | [Notebooks](https://github.com/aws-samples/cloud-experiments#amazon-sagemaker-notebooks)
+
 [![](cloud-experiments.png)](https://github.com/aws-samples/cloud-experiments)
 
-## Low/No Code Guides
+## Guides
 
 All you need to run these experiments is access to an AWS Console from your web browser.
 
@@ -18,7 +20,7 @@ Smarter cities will have smarter transportation including multi-modal, eco-frien
 
 [![](https://github.com/aws-samples/cloud-experiments/blob/master/flying-cars-with-glue-databrew/splash.png)](https://github.com/aws-samples/cloud-experiments/tree/master/flying-cars-with-glue-databrew)
 
-## Streamlit Apps
+## Exploratory Data Apps
 
 We use [Streamlit](https://streamlit.io/) for many expriments in this repository. Streamlit is the fastest way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required.
 
@@ -54,7 +56,7 @@ Experiments for running exploratory data analysis (EDA) and models on COVID rela
 
 [![](https://github.com/aws-samples/cloud-experiments/blob/master/covid-insights/cfr.png)](https://github.com/aws-samples/cloud-experiments/tree/master/covid-insights)
 
-## Amazon SageMaker Notebooks
+## Notebooks
 
 You may want to run these notebooks using [Amazon SageMaker](https://aws.amazon.com/sagemaker/). Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
 
