@@ -42,7 +42,7 @@ Step 3: Install Streamlit. Clone repo. Add path to API. Run app.
 pip install streamlit
 clone https://github.com/aws-samples/cloud-experiments
 export PYTHONPATH="$HOME/WhereYouClonedRepo/cloud-experiments"
-streamlit run cloud-experiments/experiments/data-apps/open_data_explorer/s3-app.py
+streamlit run cloud-experiments/experiments/data-apps/open_data_explorer/s3_app.py
 ```
 
 
