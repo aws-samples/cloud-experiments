@@ -84,7 +84,7 @@ For this notebook let us start with a big open dataset. Big enough that we will 
 
 We will continue our open data analytics workflow starting with the AWS Console then moving to using the notebook. Using AWS Glue we can automate creating a metadata catalog based on flat files stored on Amazon S3. Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. You can create and run an ETL job with a few clicks in the AWS Management Console. You simply point AWS Glue to your data stored on AWS, and AWS Glue discovers your data and stores the associated metadata (e.g. table definition and schema) in the AWS Glue Data Catalog. Once cataloged, your data is immediately searchable, queryable, and available for ETL.
 
-### [Cloudstory API](https://github.com/aws-samples/cloud-experiments/tree/master/api/cloudstory-api/)
+### [Cloudstory API](https://github.com/aws-samples/cloud-experiments/tree/master/experiments/notebooks/cloudstory-api/)
 
 Cloudstory API Python module and demo of using the API. The cloudstory API is documented in the other notebooks listed here.
 
