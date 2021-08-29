@@ -32,6 +32,4 @@ Reduce lines of code to use Amazon Location features. The current HTML sample us
 
 Following example of Cloud Experiments replicates many features of Amazon Location Console Explorer including listing resources and displaying variety of maps within 20 lines of code.
 
-![Streamlit low-code](streamlit-low-code.png)  
-
 This is achieved by abstracting APIs at three levels. First by React component-based development of Maplibre features. Second by using low-code Streamlit API for data apps development. Third by writing higher order APIs on top of Streamlit. The result is a domain-driven language specific to location use cases which can be ideal for building rapid prototypes, performing exploratory data analysis, and live-coding sessions engaging multi-disciplinary teams productively.
