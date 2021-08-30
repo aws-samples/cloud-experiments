@@ -32,7 +32,7 @@ Reduce lines of code to use Amazon Location features. The current HTML sample us
 
 Following example of Cloud Experiments replicates many features of Amazon Location Console Explorer including listing resources and displaying variety of maps within 20 lines of code.
 
-```
+```python
 import streamlit as st
 import location_api as loc
 from location_map_component.location_map import location_map
