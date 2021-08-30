@@ -32,4 +32,26 @@ Reduce lines of code to use Amazon Location features. The current HTML sample us
 
 Following example of Cloud Experiments replicates many features of Amazon Location Console Explorer including listing resources and displaying variety of maps within 20 lines of code.
 
+```
+import streamlit as st
+import location_api as loc
+from location_map_component.location_map import location_map
+
+_IDENTITY = "replace-with-your-cognito-identity-pool-id"
+
+st.header('Amazon Location Experiment')
+
+tabs = st.radio('Choose Amazon Location Feature', 
+    ('View ESRI Map', 'View HERE Map', 'List Resources'))
+
+if tabs == 'View ESRI Map':
+    location_map("explore.map", identity=_IDENTITY)
+
+if tabs == 'View HERE Map':
+    location_map("2-5D-Map", lon=55.2744, lat=25.1972, zoom=14, pitch=60, identity=_IDENTITY)
+
+if tabs == 'List Resources':
+    loc.list_resources()
+```
+
 This is achieved by abstracting APIs at three levels. First by React component-based development of Maplibre features. Second by using low-code Streamlit API for data apps development. Third by writing higher order APIs on top of Streamlit. The result is a domain-driven language specific to location use cases which can be ideal for building rapid prototypes, performing exploratory data analysis, and live-coding sessions engaging multi-disciplinary teams productively.
