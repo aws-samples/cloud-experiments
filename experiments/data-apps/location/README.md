@@ -30,6 +30,10 @@ Packaged dependencies can be optimised for distribution during build stage.
 
 Reduce lines of code to use Amazon Location features. The current HTML sample using AWS JavaScript SDK requires 88 lines of code for rendering a map. Cloud Experiments low-code notebook only requires one line of code to achieve the same results.
 
+```python
+location_map("2-5D-Map", lon=55.2744, lat=25.1972, zoom=14, pitch=60, identity=_IDENTITY)
+```
+
 Following example of Cloud Experiments replicates many features of Amazon Location Console Explorer including listing resources and displaying variety of maps within 20 lines of code.
 
 ```python
