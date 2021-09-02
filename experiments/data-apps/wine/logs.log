@@ -1,0 +1,809 @@
+2021-09-02 19:53:00,208:INFO:Initializing load_model()
+2021-09-02 19:53:00,208:INFO:load_model(model_name=../notebooks/wine_pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:16,567:INFO:Initializing load_model()
+2021-09-02 19:53:16,567:INFO:load_model(model_name=../../notebooks/wine_pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:31,846:INFO:Initializing load_model()
+2021-09-02 19:53:31,846:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:39,437:INFO:Initializing load_model()
+2021-09-02 19:53:39,438:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:39,596:INFO:Initializing predict_model()
+2021-09-02 19:53:39,596:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:53:39,597:INFO:Checking exceptions
+2021-09-02 19:53:39,599:INFO:Preloading libraries
+2021-09-02 19:53:46,029:INFO:Initializing load_model()
+2021-09-02 19:53:46,029:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:47,761:INFO:Initializing load_model()
+2021-09-02 19:53:47,761:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:47,869:INFO:Initializing predict_model()
+2021-09-02 19:53:47,869:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:53:47,869:INFO:Checking exceptions
+2021-09-02 19:53:47,869:INFO:Preloading libraries
+2021-09-02 19:53:51,260:INFO:Initializing load_model()
+2021-09-02 19:53:51,261:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:55,231:INFO:Initializing load_model()
+2021-09-02 19:53:55,231:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:57,664:INFO:Initializing load_model()
+2021-09-02 19:53:57,664:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:58,904:INFO:Initializing load_model()
+2021-09-02 19:53:58,904:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:53:59,021:INFO:Initializing predict_model()
+2021-09-02 19:53:59,022:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:53:59,023:INFO:Checking exceptions
+2021-09-02 19:53:59,023:INFO:Preloading libraries
+2021-09-02 19:54:02,248:INFO:Initializing load_model()
+2021-09-02 19:54:02,248:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:04,085:INFO:Initializing load_model()
+2021-09-02 19:54:04,086:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:05,184:INFO:Initializing load_model()
+2021-09-02 19:54:05,184:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:05,283:INFO:Initializing predict_model()
+2021-09-02 19:54:05,283:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:05,284:INFO:Checking exceptions
+2021-09-02 19:54:05,284:INFO:Preloading libraries
+2021-09-02 19:54:08,068:INFO:Initializing load_model()
+2021-09-02 19:54:08,068:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:09,102:INFO:Initializing load_model()
+2021-09-02 19:54:09,103:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:09,235:INFO:Initializing predict_model()
+2021-09-02 19:54:09,236:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:09,244:INFO:Checking exceptions
+2021-09-02 19:54:09,247:INFO:Preloading libraries
+2021-09-02 19:54:12,727:INFO:Initializing load_model()
+2021-09-02 19:54:12,727:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:14,303:INFO:Initializing load_model()
+2021-09-02 19:54:14,303:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:15,615:INFO:Initializing load_model()
+2021-09-02 19:54:15,615:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:15,716:INFO:Initializing predict_model()
+2021-09-02 19:54:15,717:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:15,717:INFO:Checking exceptions
+2021-09-02 19:54:15,717:INFO:Preloading libraries
+2021-09-02 19:54:17,936:INFO:Initializing load_model()
+2021-09-02 19:54:17,936:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:18,862:INFO:Initializing load_model()
+2021-09-02 19:54:18,862:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:18,975:INFO:Initializing predict_model()
+2021-09-02 19:54:18,975:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:18,976:INFO:Checking exceptions
+2021-09-02 19:54:18,976:INFO:Preloading libraries
+2021-09-02 19:54:21,359:INFO:Initializing load_model()
+2021-09-02 19:54:21,359:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:22,259:INFO:Initializing load_model()
+2021-09-02 19:54:22,260:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:23,194:INFO:Initializing load_model()
+2021-09-02 19:54:23,195:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:23,308:INFO:Initializing predict_model()
+2021-09-02 19:54:23,309:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:23,309:INFO:Checking exceptions
+2021-09-02 19:54:23,309:INFO:Preloading libraries
+2021-09-02 19:54:39,581:INFO:Initializing load_model()
+2021-09-02 19:54:39,582:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:40,910:INFO:Initializing load_model()
+2021-09-02 19:54:40,910:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:41,036:INFO:Initializing predict_model()
+2021-09-02 19:54:41,036:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:41,037:INFO:Checking exceptions
+2021-09-02 19:54:41,037:INFO:Preloading libraries
+2021-09-02 19:54:42,972:INFO:Initializing load_model()
+2021-09-02 19:54:42,972:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:43,961:INFO:Initializing load_model()
+2021-09-02 19:54:43,962:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:54:44,076:INFO:Initializing predict_model()
+2021-09-02 19:54:44,076:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:54:44,080:INFO:Checking exceptions
+2021-09-02 19:54:44,082:INFO:Preloading libraries
+2021-09-02 19:54:58,970:INFO:Initializing load_model()
+2021-09-02 19:54:58,971:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:00,428:INFO:Initializing load_model()
+2021-09-02 19:55:00,429:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:00,531:INFO:Initializing predict_model()
+2021-09-02 19:55:00,531:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:55:00,532:INFO:Checking exceptions
+2021-09-02 19:55:00,532:INFO:Preloading libraries
+2021-09-02 19:55:21,778:INFO:Initializing load_model()
+2021-09-02 19:55:21,779:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:22,665:INFO:Initializing load_model()
+2021-09-02 19:55:22,666:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:22,790:INFO:Initializing predict_model()
+2021-09-02 19:55:22,790:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:55:22,791:INFO:Checking exceptions
+2021-09-02 19:55:22,791:INFO:Preloading libraries
+2021-09-02 19:55:34,021:INFO:Initializing load_model()
+2021-09-02 19:55:34,022:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:35,020:INFO:Initializing load_model()
+2021-09-02 19:55:35,020:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:35,145:INFO:Initializing predict_model()
+2021-09-02 19:55:35,145:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:55:35,165:INFO:Checking exceptions
+2021-09-02 19:55:35,169:INFO:Preloading libraries
+2021-09-02 19:55:37,915:INFO:Initializing load_model()
+2021-09-02 19:55:37,915:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:39,414:INFO:Initializing load_model()
+2021-09-02 19:55:39,414:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:39,524:INFO:Initializing predict_model()
+2021-09-02 19:55:39,526:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:55:39,535:INFO:Checking exceptions
+2021-09-02 19:55:39,536:INFO:Preloading libraries
+2021-09-02 19:55:42,761:INFO:Initializing load_model()
+2021-09-02 19:55:42,761:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:47,482:INFO:Initializing load_model()
+2021-09-02 19:55:47,483:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:52,571:INFO:Initializing load_model()
+2021-09-02 19:55:52,572:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:55:52,676:INFO:Initializing predict_model()
+2021-09-02 19:55:52,687:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:55:52,690:INFO:Checking exceptions
+2021-09-02 19:55:52,701:INFO:Preloading libraries
+2021-09-02 19:56:10,079:INFO:Initializing load_model()
+2021-09-02 19:56:10,079:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:12,472:INFO:Initializing load_model()
+2021-09-02 19:56:12,472:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:12,574:INFO:Initializing predict_model()
+2021-09-02 19:56:12,575:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:56:12,577:INFO:Checking exceptions
+2021-09-02 19:56:12,579:INFO:Preloading libraries
+2021-09-02 19:56:23,882:INFO:Initializing load_model()
+2021-09-02 19:56:23,883:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:24,311:INFO:Initializing load_model()
+2021-09-02 19:56:24,312:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:24,826:INFO:Initializing load_model()
+2021-09-02 19:56:24,826:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:26,718:INFO:Initializing load_model()
+2021-09-02 19:56:26,719:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:27,187:INFO:Initializing load_model()
+2021-09-02 19:56:27,187:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:27,637:INFO:Initializing load_model()
+2021-09-02 19:56:27,638:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:28,088:INFO:Initializing load_model()
+2021-09-02 19:56:28,088:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:38,744:INFO:Initializing load_model()
+2021-09-02 19:56:38,746:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:39,191:INFO:Initializing load_model()
+2021-09-02 19:56:39,191:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:39,644:INFO:Initializing load_model()
+2021-09-02 19:56:39,644:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:39,841:INFO:Initializing load_model()
+2021-09-02 19:56:39,841:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:40,506:INFO:Initializing load_model()
+2021-09-02 19:56:40,508:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:41,666:INFO:Initializing load_model()
+2021-09-02 19:56:41,668:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:41,783:INFO:Initializing predict_model()
+2021-09-02 19:56:41,783:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:56:41,806:INFO:Checking exceptions
+2021-09-02 19:56:41,815:INFO:Preloading libraries
+2021-09-02 19:56:48,831:INFO:Initializing load_model()
+2021-09-02 19:56:48,831:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:49,674:INFO:Initializing load_model()
+2021-09-02 19:56:49,674:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:52,671:INFO:Initializing load_model()
+2021-09-02 19:56:52,672:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:56:52,775:INFO:Initializing predict_model()
+2021-09-02 19:56:52,775:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:56:52,777:INFO:Checking exceptions
+2021-09-02 19:56:52,778:INFO:Preloading libraries
+2021-09-02 19:57:01,259:INFO:Initializing load_model()
+2021-09-02 19:57:01,259:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:03,523:INFO:Initializing load_model()
+2021-09-02 19:57:03,526:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:04,153:INFO:Initializing load_model()
+2021-09-02 19:57:04,153:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:04,970:INFO:Initializing load_model()
+2021-09-02 19:57:04,970:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:06,989:INFO:Initializing load_model()
+2021-09-02 19:57:06,989:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:07,585:INFO:Initializing load_model()
+2021-09-02 19:57:07,585:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:08,032:INFO:Initializing load_model()
+2021-09-02 19:57:08,032:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:08,603:INFO:Initializing load_model()
+2021-09-02 19:57:08,604:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:09,805:INFO:Initializing load_model()
+2021-09-02 19:57:09,805:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:10,519:INFO:Initializing load_model()
+2021-09-02 19:57:10,519:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:11,760:INFO:Initializing load_model()
+2021-09-02 19:57:11,761:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:11,877:INFO:Initializing predict_model()
+2021-09-02 19:57:11,877:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:57:11,877:INFO:Checking exceptions
+2021-09-02 19:57:11,878:INFO:Preloading libraries
+2021-09-02 19:57:21,156:INFO:Initializing load_model()
+2021-09-02 19:57:21,158:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:22,224:INFO:Initializing load_model()
+2021-09-02 19:57:22,224:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:22,659:INFO:Initializing load_model()
+2021-09-02 19:57:22,659:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:23,143:INFO:Initializing load_model()
+2021-09-02 19:57:23,144:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:33,743:INFO:Initializing load_model()
+2021-09-02 19:57:33,743:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:34,409:INFO:Initializing load_model()
+2021-09-02 19:57:34,409:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:34,870:INFO:Initializing load_model()
+2021-09-02 19:57:34,870:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:35,328:INFO:Initializing load_model()
+2021-09-02 19:57:35,328:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:35,890:INFO:Initializing load_model()
+2021-09-02 19:57:35,890:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:40,095:INFO:Initializing load_model()
+2021-09-02 19:57:40,097:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:40,542:INFO:Initializing load_model()
+2021-09-02 19:57:40,543:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:41,743:INFO:Initializing load_model()
+2021-09-02 19:57:41,743:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:42,425:INFO:Initializing load_model()
+2021-09-02 19:57:42,425:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:43,005:INFO:Initializing load_model()
+2021-09-02 19:57:43,006:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:44,163:INFO:Initializing load_model()
+2021-09-02 19:57:44,163:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:57:44,271:INFO:Initializing predict_model()
+2021-09-02 19:57:44,272:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:57:44,273:INFO:Checking exceptions
+2021-09-02 19:57:44,273:INFO:Preloading libraries
+2021-09-02 19:58:08,702:INFO:Initializing load_model()
+2021-09-02 19:58:08,702:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:09,848:INFO:Initializing load_model()
+2021-09-02 19:58:09,850:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:09,945:INFO:Initializing predict_model()
+2021-09-02 19:58:09,945:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:58:09,946:INFO:Checking exceptions
+2021-09-02 19:58:09,946:INFO:Preloading libraries
+2021-09-02 19:58:12,700:INFO:Initializing load_model()
+2021-09-02 19:58:12,701:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:13,608:INFO:Initializing load_model()
+2021-09-02 19:58:13,608:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:13,712:INFO:Initializing predict_model()
+2021-09-02 19:58:13,712:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:58:13,714:INFO:Checking exceptions
+2021-09-02 19:58:13,714:INFO:Preloading libraries
+2021-09-02 19:58:16,654:INFO:Initializing load_model()
+2021-09-02 19:58:16,655:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:17,944:INFO:Initializing load_model()
+2021-09-02 19:58:17,945:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:18,035:INFO:Initializing predict_model()
+2021-09-02 19:58:18,038:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:58:18,050:INFO:Checking exceptions
+2021-09-02 19:58:18,051:INFO:Preloading libraries
+2021-09-02 19:58:20,720:INFO:Initializing load_model()
+2021-09-02 19:58:20,720:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:21,673:INFO:Initializing load_model()
+2021-09-02 19:58:21,673:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:21,777:INFO:Initializing predict_model()
+2021-09-02 19:58:21,777:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:58:21,780:INFO:Checking exceptions
+2021-09-02 19:58:21,780:INFO:Preloading libraries
+2021-09-02 19:58:24,235:INFO:Initializing load_model()
+2021-09-02 19:58:24,236:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:25,306:INFO:Initializing load_model()
+2021-09-02 19:58:25,307:INFO:load_model(model_name=../../notebooks/wine-pycaret/extra_tree_model, platform=None, authentication=None, verbose=True)
+2021-09-02 19:58:25,434:INFO:Initializing predict_model()
+2021-09-02 19:58:25,447:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='quality')),
+                ('fix_perfect', Remove_100(target='quality')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-09-02 19:58:25,451:INFO:Checking exceptions
+2021-09-02 19:58:25,454:INFO:Preloading libraries
